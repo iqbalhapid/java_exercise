@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SoalTujuh",
+            "request": "launch",
+            "mainClass": "SoalTujuh",
+            "projectName": "week1_953d1817"
+        }
+    ]
+}
