@@ -6,10 +6,6 @@ public class Kretek extends Rokok implements Rasa {
         super(m, j, k);
         }
 
-        public String getMerk(){
-                System.out.println("merk" + merek);
-        }
-
         public boolean manis(){
         System.out.println("Apakah udud nya manis? :");
         Scanner jawaban = new Scanner(System.in);
