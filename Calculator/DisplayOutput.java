@@ -6,6 +6,6 @@ public class DisplayOutput{
     }
 
     public void messageError(String e){
-        System.err.println("Catch an error (Invalid input Type of Operand)");
+        System.err.println("Catch an error (Invalid input Type of Operand) retrying..");
     }
 }
