@@ -5,7 +5,7 @@ public class DisplayOutput{
         System.out.println("hasil perhitungan angka " +angka1+ " dengan " +angka2+ " adalah " +result);
     }
 
-    public String messageError(){
-        return "the number you type its not valid (must a number)";
+    public void messageError(String e){
+        System.err.println("Catch an error (Invalid input Type of Operand)");
     }
 }

@@ -1,17 +1,19 @@
 public class Calculation extends UserInput{
-    int tabung1[] = new int[count];
+    int tabung1[] = new int[count]; //naha kudu diisi count??
     int tabung2[] = new int[count];
     int i = 0;
     int count = j1 + j2;
 
     public int initialTabung1(int[] tabung1){
-        tabung1[i] = j1;
-        return i++;
+        tabung1[i] = j1; //ini max tabung
+        i++;
+        return tabung1[i];
     }
 
     public int initialTabung2(int[] tabung2){
-        tabung2[i] = j1;
-        return i++;
+        tabung2[i] = j1; //ini max tabung
+        i++;
+        return tabung2[i];
     }
 
     public int compute(int[] tabung1, int[] tabung2){

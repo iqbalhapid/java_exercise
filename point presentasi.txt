@@ -1,0 +1,40 @@
+- clean code
+- keep it simple stupid
+- youre aren't gonna need it
+- Dont repeat yourself
+
+-git
+ada 2
+local dan remote
+
+git init
+git config						remote
+git status					git remote add "aliasname" transfer protocol (ssh and http)
+git add (add file to staging)			pull / clone
+git diff					pull req, merge req
+git commit					
+branch
+checkout
+log
+
+
+-java basic fundamental
+class
+variable
+
+casting
+boxing
+
+method
+
+object
+instance
+
+abstraction
+encapsulation
+polymorphism
+inheritance
+interface
+
+Exception
+ 

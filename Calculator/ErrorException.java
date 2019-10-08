@@ -7,8 +7,8 @@ public class ErrorException extends Exception
     //     this.error = error;
     // }
     
-    public String messageError(){
-        return "the number you type its not valid (integer)";
+    public String getMessage(){
+        return "";
     }
 
 
