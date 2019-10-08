@@ -12,8 +12,8 @@ public class Operation extends UserInput{
             return result = phi * r * r ;
         } else if(operand.equals("keliling")) {
             return result = 2 * phi * r;
-        }   else {
-            return phi;
+        } else {
+        return phi;
             
 
     }
