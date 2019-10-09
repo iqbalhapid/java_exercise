@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+}
+header{
+    position: sticky;
+    background:gray;
+    width: 1500px;
+    height: 100px;
+    text-align: center;
+    top: 0;
+    overflow: hidden;
+
+}
+
+aside{
+    text-align: center;
+    background : blue;
+    width: 150px;
+    height: 600px;
+}
+
+footer{
+    background :greenyellow;
+    width: 1500px;
+    height: 100px;
+    text-align: center;
+}
+
+label{
+    font-size: 20pt;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+#logo {
+    position: sticky;
+    background: orange;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    top: 0;
+  }
+
+#content{
+    background: pink;
+    width: 1500px;
+    height: 600px;
+}
+
+#container{
+    background: white;
+    width: 800px;
+    height: 800px;
+}
+
