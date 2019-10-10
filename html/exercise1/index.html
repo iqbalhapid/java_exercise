@@ -10,15 +10,62 @@
 <body>   
     <div id="container">
     <header>
+        header
         <div id="logo">
-            <img src="assets/tenor.gif" alt="entah apa" width="150" height="100">
+            <img src="assets/handdown.png" id="hand" alt="entah apa" onmouseover="change('down')"
+            onmouseout="change('up')" width="150" height="100">
             <label for="logo"> Logo</label>
         </div>
     </header>
-    <div id="content">
-    <aside><label for="aside">Entah Apa</label></aside>
+        <section>
+            <nav>
+                <ul>sidebar</ul>
+                <div id="statusDiv">
+                        the hand is down
+                </div>
+            </nav>
+            <article>
+                    <button type="button" class="collapsible"> Soal 1</button>
+                    <div class="content">
+                            <label>Name:</label>
+                            <input type="text" name="nama" id="name"  />
+                            <label>Email:</label>
+                            <input type="text" name="email" id="email"  />
+                            <label>Password:</label>
+                            <input type="text" name="password" id="password"  />
+                            <input type="submit" name="submit" id="login" value="Login" />
+                        </div>
+                        <br>
+
+                    <button type="button" class="collapsible"> Soal 2</button>
+                    <div class="content">
+                    <input type="text" id="operator" placeholder="type operand you want + - * /">
+                    <input type="number" id="angka2" class="form-control" placeholder="0">
+                    <input type="number" id="hasil" class="form-control" placeholder="0" readonly>
+                    <input type="submit" id="calculate">
+                    </div>
+            
+            <button type="button" class="collapsible">Soal 3</button>
+            <div class="area-komputer content">
+                    <img src="assets/gajah.png" class="img-komputer">
+            <input type="button" onclick="putar()" value="putarrrrrr">
+            </div>
+
+            
+            <button type="button" class="collapsible">Soal 4</button>
+            <div class="content">
+                            <label>add element:</label>
+                            <input type="text" name="push" id="push"  />
+                            <input type="submit" name="submit" id="input" value="into element" />
+                            <input type="submit" name="submit" id="display" value="show array" />
+                        <div id="showArray">
+                        </div>
+            </div>
+    </article>
+    </section>
     <footer><label for="footer">Footer</label></footer>
     </div>
-    </div>
+    <script src="assets/jquery-3.4.1.min.js"></script>
+    <script src="assets/script.js" type="text/javascript"></script>
 </body>
 </html>
